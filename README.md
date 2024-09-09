@@ -33,3 +33,6 @@ A program is required to model the concept of a planet in the solar system.
 
 ## UML Diagram
 ![Class Diagram](images/solar-system-uml.png)
+
+## Test coverage
+![Tests](images/solar-system-test.png)
