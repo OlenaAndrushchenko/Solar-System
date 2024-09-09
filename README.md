@@ -32,3 +32,4 @@ A program is required to model the concept of a planet in the solar system.
 - Modify the print method to display the values of the new attributes on the screen.
 
 ## UML Diagram
+![Class Diagram](images/solar-system-uml.png)
