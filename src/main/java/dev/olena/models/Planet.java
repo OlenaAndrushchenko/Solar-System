@@ -32,8 +32,7 @@ public class Planet {
     }
 
     public boolean isOuterPlanet() {
-        double distanceInKm = distanceToSun * 149597870.0;
-        return distanceInKm > 3.4 * 149597870;
+        return distanceToSun > 509;
     }
 
     public void printDetails() {
@@ -47,7 +46,7 @@ public class Planet {
         System.out.println("Visible with Naked Eye: " + visibleWithNakedEye);
         System.out.println("Orbital Period: " + orbitalPeriod + " years");
         System.out.println("Rotation Period: " + rotationPeriod + " days");
-        System.out.println("Density: " + calculateDensity() + " kg/km³");
+        System.out.println("Density: " + String.format("%.1f", calculateDensity()) + " kg/km³"); 
         System.out.println("Is Outer Planet: " + isOuterPlanet());
     }
 }
